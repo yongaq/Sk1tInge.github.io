@@ -1,3 +1,16 @@
+/*CSS-селектор дочірніх елементів */li a {text-decoration-color: gold;  
+} 
+
+/*4.Х + Y*/ul + p {color: red;  } 
+
+/*8.X [href = "foo"](шоколадна ссилка)*/a[href="http://everstudent.ru/blog/htmlcss/30-css-seletors-to-memorize/"] {color: chocolate;} 
+
+/*hover*/a:hover {border: 2px solid silver;  }
+
+/*12.X: checked*/input[type="radio"]:checked {margin-left: 25px; }
+
+#theOne { background-color: silver;}
+
 body {
 background-color: #79e2f5;
 }
@@ -6,7 +19,7 @@ a {
 color: blue;
 }
 a.list1 {
-color: #FFBB00;
+color: #9f00ad;
 }
 a.list2 {
 color: #800000;
@@ -14,11 +27,11 @@ color: #800000;
 
 #exam10
 {
-color: #56c500;
+color: green;
 }
 
 p.ex4{
-color: #00ff00;
+color: #129934;
 }
 
 p.ex5{
@@ -32,47 +45,38 @@ body.body5{
  background-position: 100% 25%
 }
 
-p.ex6{font-family: Arial, Candara, Century-Gothic, sans-serif}
 
-h1.ex7{
- font-family: Arial, Candara, Century-Gothic, sans-serif;
- font-style: normal;
+/*Група№1*/p.ex6,h1.ex7,p.ex8,p.ex9,h1.ex10{
+    font-family: Arial, Candara, Century-Gothic, sans-serif;
+    font-style: normal;
 }
-h2.ex7{
+
+
+/*Група№2*/h2.ex7,p.ex7,h2.ex10,h3.ex10{
  font-family: Times New Roman, Georgia, serif;
  font-style: italic;
 }
+
 p.ex7{
- font-family: Times New Roman, Georgia, serif;
  font-style: oblique;
 }
 
 p.ex8{
- font-family: Arial, Candara, Century-Gothic, sans-serif;
- font-style: normal;
  font-variant: small-caps;
 }
 
 p.ex9{
- font-family: Arial, Candara, Century-Gothic, sans-serif;
- font-style: normal;
  font-variant: normal;
  font-weight: 600
 }
 
 h1.ex10{
- font-family: Arial, Candara, Century-Gothic, sans-serif;
- font-style: normal;
  font-size: 30px;
 }
 h2.ex10{
- font-family: Times New Roman, Georgia, serif;
- font-style: italic;
  font-size: 100pt;
 }
 h3.ex10{
- font-family: Times New Roman, Georgia, serif;
- font-style: italic;
  font-size: 120%;
 }
 p.ex10{
@@ -81,9 +85,5 @@ font-weight: bold;
 font-size: 30px;
 font-family: arial, sans-serif;
 }
-
-
-
-
 
 
