@@ -1,3 +1,4 @@
+/* Завдання 1*/
 .image-center {
     display: block;
   margin: 0 auto;
@@ -9,7 +10,7 @@ p {
   padding-top: 460px;
 }
 
-body {
+#bgf {
   display: block;
   background-color: antiquewhite;
   background: url(../photo/dmitrenko_pole.png) no-repeat center center fixed;
@@ -17,4 +18,158 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+/* Завдання 2*/
+hr {
+  border-top: 1px solid  black ;
+} 
+/* Таблиця 1*/
+caption {
+  caption-side: bottom;
+  text-align: center;                                 
+  font-size: 14px;
+}
+
+.table1 {
+  width: 40%;
+  height: 200px;
+  border: 5px solid #90119c;
+  text-align: center;
+  margin: 0 auto;
+}
+.table1 .kvadratik1 {
+  width: 150px;
+}
+
+.table1 td {
+  border: 2px solid #90119c;
+} 
+ 
+ .table1 .kolonka1 {
+  height: 150px;
+  text-align: right;
+  vertical-align: top;
+}
+/* Таблиця 2 */
+.table2 {
+  border: 2px solid #09db36;
+  text-align: center;
+  height: 150px;
+  width: 700px;
+  border-collapse: separate;
+   border-spacing: 20px;
+}
+
+.table2 td {
+  border: 2px solid #09db36;
+  text-align: left;
+}
+/* Таблиця 3*/
+.table3 {
+  border: 2px solid #d10909;
+  height: 100px;
+  width: 1000px;
+  border-collapse: separate;
+   border-spacing: 30px;
+}
+
+.table3 td {
+  border: 2px solid #d10909;
+} 
+
+.table3 .kvadratik1 {
+  border: 2px solid #11e9e9;
+}
+.table3 .kvadratik6 {
+  border: 2px solid #0aa117;
+}
+/* Таблиця 4*/
+.table4 {
+  border: 2px solid #2b9971;
+  width: 700px;
+  border-spacing: 0;
+}
+.table4 td {
+  border: 1px solid #2b9971;
+  padding: 10px;
+}        
+.table4 .kolonka1 {
+  text-align: center;
+}
+.table4 .kvadratik1 {
+  color: #1689db;
+}
+.table4 .kvadratik6 {
+  color: #d60fc9;
+}
+/* Таблиця 5*/
+.table5 {
+  width: 700px;
+  border: 3px solid #eb08cc;
+    border-top: none;
+    border-bottom: none;
+}
+.table5 td {
+  width: 250px;
+}
+.table5 .Dataa {
+  text-align: center;
+  background-color: #71c061;
+}
+.table5 .Data {
+  text-align: center;
+  background-color: #39dd18;
+}
+.Table5in tr {
+  border: 3px solid #eb08cc;
+}  
+/* Таблиця 6*/
+.table6 caption {
+  caption-side: top;
+}
+
+.table6 td {
+  text-align: center;
+}
+/* Таблиця 7*/
+.table7 {
+  margin: 0 auto;
+  border: 3px solid #0d09e2;
+  width: 700px;
+  border-spacing: 0;
+}
+.table7 td {
+  border: 1px solid #0d09e2;
+}
+.table7 .kvadratik1 {
+  background-color: #65d8fc;
+}
+.table7 .kvadratik16 {
+  background-color: #eb10d8;
+}
+.table7 .kvadratikk {
+  background-color: #eea0ee;
+}
+/* Таблиця 8*/
+.table8 caption {
+  caption-side: top;
+}
+.table8 {
+  margin: 0 auto;
+  border: 2px solid #67abe2;
+}
+.table8 td {
+  border: 2px solid #67abe2;
+}
+.tableIn1 {
+  border-collapse: collapse;
+}
+.tableIn1 td {
+  border: 3px solid #b339b8;
+}
+.tableIn2 {
+  border-collapse: collapse;
+}
+.tableIn2 td {
+  border: 3px solid #8a086e;
 }
