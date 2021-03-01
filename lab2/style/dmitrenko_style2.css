@@ -173,3 +173,20 @@ caption {
 .tableIn2 td {
   border: 3px solid #8a086e;
 }
+/* Завдання 3*/
+.classmates {
+  margin: 0 auto;
+  border: 3px solid #000000;
+}
+.classmates td {
+  border: 3px solid #000000;
+}
+ iframe {
+  width: 1285px;
+  min-height: 310px;
+  border: none;
+}
+div.video {
+  text-align: center;
+    margin: 0 auto;
+}
