@@ -1,0 +1,35 @@
+body {
+    background-color: #d8d7b5;
+}
+
+div {
+    width: 700px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    text-align: justify; 
+}
+
+.text1 {
+    text-indent: 25px;
+    background-color: yellowgreen;
+    color: #000000;
+    border: double black;
+}
+
+.text2 {
+    text-indent: 15px;
+    background-color: black;
+    color: white;
+    border: dashed gold;
+    margin-left: 60px;
+}
+
+.text3{
+    margin-left: 180px;
+    border-style: dashed;
+    border-color: orangered;
+    text-indent: 40px;
+    background-color: gray;
+    color: purple;
+}

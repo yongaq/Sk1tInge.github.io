@@ -1,0 +1,59 @@
+body {
+    background-color: white;
+    background-image: url(../images/dmitrenko_ramka.gif);
+    background-repeat: repeat-y;
+    background-position: left;
+    background-attachment: fixed;
+}
+
+
+.text div {
+    position: absolute;
+    height: 120%;
+    padding: 10px;
+    text-indent: 15px;
+    border: 5px double red;
+    background-image: url(../images/dmitrenko_bg_menu.gif);
+    background-repeat: repeat-x;
+    background-color: #ffcc99;
+}
+
+.text {
+    width: 1020px;
+    height: 120%;
+    position: absolute;
+    left: 25%;
+}
+
+
+h4 {
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+    padding: 0px;
+}
+
+.text > div h4{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+li {list-style-type: none;}
+
+li:before {content: "— ";}
+
+.text1 {
+    width: 600px;
+    padding: 10px;
+    float: left;
+    background-position:center;
+    
+}
+
+.text2 {
+    width: 400px;
+    margin-left: 620px;
+    background-position:top;
+}
+
+                                                                              
