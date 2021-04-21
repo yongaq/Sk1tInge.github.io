@@ -1,0 +1,53 @@
+body  {
+    background: url(../picture/hotlinebg.png) no-repeat top center;
+    background-size: 1920px 1080px;
+    height: 2000px;
+    background-color: black;
+}
+
+div {
+    float: left;
+}
+
+.static {
+    position: static;
+    color : white
+}
+.sticky {
+    position: sticky;
+    color : white;
+    margin-top: 250px;
+    margin-left: 100px;
+    top : 0 ;
+}
+.initial {
+position: initial;
+    margin-left: 100px;
+}
+.fixed {
+    position: fixed;
+    margin-top: 250px;
+    margin-left: 1500px;
+}
+.relative {
+    position: relative;
+    right: 1400px;
+    top: 750px;
+}
+
+.absolute {
+position: absolute;
+left: 1000px;
+    top: 650px
+}
+.inherit {
+    position: inherit;
+    left: 1000px
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: rgb(53, 199, 97);
+    width: 400px;
+}
