@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(175, 172, 144);
+    width: 286px;
+}
+
+.left {
+    float : left;
+}
+
+.right {
+    float : right;
+}
+
+.none {
+    float : none;
+    display: block;
+    max-width: 15%;
+    max-height: 15%;
+    margin: auto;
+    float: none;
+    padding: 10px;
+}
