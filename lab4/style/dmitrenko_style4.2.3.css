@@ -1,0 +1,29 @@
+div {
+    text-align : center ;
+    font-family: fantasy;
+    font-size: 34px;
+}
+
+p{
+    font-size: 34px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    text-align : center;
+}
+
+.block1{
+    float: left;
+    width: 300px;
+    line-height: 300px;
+    border: 8px solid purple;
+}
+
+.block2{
+    float: right;
+    width: 250px;
+    line-height: 500px;
+    border: 12px solid rgb(97, 55, 196);
+}
+
+.p1{clear:both}
+.p2{clear:left}
+.p3{clear:right}

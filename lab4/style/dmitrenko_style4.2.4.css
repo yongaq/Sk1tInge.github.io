@@ -1,0 +1,28 @@
+.icons{
+    position: absolute;
+}
+
+.icons div{
+    position:absolute;
+}
+
+.swords {
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+.skull {
+    top: 0px;
+    left: 400px;
+    z-index: 1;
+}
+.helmet {
+    top: 0px;
+    left: 800px;
+    z-index: 0;
+}
+.shield {
+    top: 0px;
+    left: 1200px;
+    z-index: -1;
+}
