@@ -1,0 +1,87 @@
+.logo {
+    text-align: center;
+    font-family:cursive;
+    color: rgb(25, 128, 25);
+    font-size: 20 ;
+    float:left;
+    position :relative;
+     border: solid 2px green; 
+    width: 19.3%;
+    height: 100%;
+}
+
+.sideleft {
+    float: left;
+    height: 100%;
+    width: 40%;
+     border: solid 2px green; 
+    position: relative;
+    overflow-y: scroll;
+}
+
+.treeimg {
+    position: relative;
+    left: 20%;
+    float: left;
+    clear:both;
+}
+
+.sideright {
+    float:right;
+    height: 100%;
+    width: 40%;
+     border: solid 2px green; 
+    position: relative;
+    text-align:center;
+    font-size: 25px;
+    overflow-y: scroll;
+    font-family: sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+
+.dws {
+    position:absolute;
+    left:43.5%;
+    top: 30%;
+}
+
+.butt {
+    border: 3px solid green;
+    font-size: 20px;
+    color: green;
+    text-decoration: none;
+    text-transform:uppercase;
+    width:250px;
+    height: 60px;
+    display:block;
+    text-align: center;
+    line-height: 60px;
+    font-family: cursive;
+    position:relative;
+    transition: .5s;
+    overflow: hidden;
+    margin: 5px;
+}
+
+h2::before {
+    content: "\2766";
+}
+
+h2::after {
+    content: "\2639"
+}
+
+section {
+    quotes:none;
+
+}
+
+  footer {
+   position: relative;
+   text-align: end;
+   top: 460px;
+   color:green;
+}
+
