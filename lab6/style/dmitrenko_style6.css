@@ -1,0 +1,198 @@
+.logo {
+    text-align: center;
+    font-family:cursive;
+    color: rgb(25, 128, 25);
+    font-size: 20 ;
+    float:left;
+    position :relative;
+     border: solid 2px green; 
+    width: 19.3%;
+    height: 100%;
+}
+
+.logopng {
+height: 200px;
+width: 200px;
+-o-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.logopng:hover {
+  transform: rotate(360deg) matrix(1,0,0.5,1,50,0);
+}
+
+figcaption {
+    color: white;
+  text-shadow: 1px 1px #732372, 1px -1px #732372, -1px 1px #732372, -1px -1px #732372, 3px 3px 6px rgba(0,0,0,.5);
+  transition: all 1s ease-in-out;
+  transform-origin: 0% 100%;
+}
+
+figcaption:hover {
+    transform: rotate(8deg);
+}
+
+.sideright h2 {
+    transform: matrix3d(0.683333, -0.091887, -0.59044, 0, 0.22022, 0.933333, 0.186887, 0, -0.623773, -0.52022, 0.583333, 0, 0, 0, 0, 1);
+}
+
+
+body {
+background: linear-gradient(45deg, #a8ff78, #78ffd6);
+background-size: 400% 400%;
+animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+footer p {
+    animation: notransform 5s infinite;
+    transition: all 1s ease-in-out;
+}
+
+footer:hover p {
+    transform: rotateY(180deg);
+  -webkit-animation-delay: 2s;
+  animation-delay: 1s;
+}
+
+textarea {
+    position: relative;
+    margin-top: 250px;
+    resize:vertical;
+    width: 200px;
+    height: 100px;
+    caret-color: green;
+    border: solid 2px green;
+}
+
+.sideleft {
+    float: left;
+    height: 100%;
+    width: 40%;
+     border: solid 2px green; 
+    position: relative;
+    overflow-y: scroll;
+}
+
+.treeimg  {
+    position: relative;
+    left: 20%;
+     float: left; 
+    clear:both;
+     outline:auto green; 
+    margin-top: 150px;
+    cursor:pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    height: 350px;
+    width: 350px;
+}
+
+.treeimg:hover {
+    height: 400px;
+    width: 400px;
+    transition: height 1s ease 0.1s, width 1s ease 0.1s;
+}
+
+.sideright {
+    float:right;
+    height: 100%;
+    width: 40%;
+     border: solid 2px green; 
+    position: relative;
+    text-align:center;
+    font-size: 25px;
+    overflow-y: scroll;
+    font-family: sans-serif;
+    color: green;
+  letter-spacing: .1em;
+  text-shadow: 4px 4px white, 6px 6px #D7CC88;
+}
+ul{
+    list-style-type: none;
+}
+
+.dws {
+    position:absolute;
+    left:43.5%;
+    top: 30%;
+}
+
+.butt {
+    border: 3px solid green;
+    font-size: 20px;
+    color: green;
+    text-decoration: none;
+    text-transform:uppercase;
+    width:250px;
+    height: 60px;
+    display:block;
+    text-align: center;
+    line-height: 60px;
+    font-family: cursive;
+    position:relative;
+    transition: .5s;
+    overflow: hidden;
+    margin: 5px;
+    border-top-left-radius: 100% 20px; border-bottom-right-radius: 100% 20px;
+}
+
+h2::before {
+    content: "\2766";
+}
+
+h2::after {
+    content: "\2639"
+}
+
+section {
+    quotes:none;
+
+}
+
+.butt::before, .butt::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: green;
+    top: 0;
+    left: -100%;
+    opacity: .5;
+    transition: .3s;
+    z-index: -1;
+}
+
+.butt::after {
+    opacity: 1;
+    transition-delay: .2s;
+}
+
+.butt:hover {
+    color: white;
+
+}
+
+.butt:hover::before, .butt:hover::after {
+    left: 0;
+}
+
+  footer {
+   position: relative;
+   text-align: end;
+   top: 460px;
+   color:green;
+}
+
