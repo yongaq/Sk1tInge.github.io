@@ -1,9 +1,5 @@
 @media print {
 
-    body {
-        height: 100%;
-    }
-
      .main , .footer , .header {
         border: none;
     }
