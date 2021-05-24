@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+            url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+            font-style: italic;
+   }
+ 
+ body { 
+    height: 100%; 
+    width:  99%; 
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+ }
+
+  .osnova { 
+    display:flex;
+    flex-direction: row;
+    width:90%;
+    height: 100%;
+    
+  } 
+
+ .header {
+    background-color: #be84df;
+    margin: 0px;
+     height: calc(280px-140px);  /*140px; */
+    width: 90%;
+    border: solid 2px black;
+ }
+
+ .heading  {
+    text-align:center;
+    font-family: "Open Sans", sans-serif ;
+    font-size: 50px;
+
+ }                                                                  
+
+ .leftside {
+    background-color: #d44e25;
+    border: solid 2px black;
+    border-top:none;
+    width: 20%;
+    height: 100%;
+    overflow-y: scroll;
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif ;
+    color : white ;
+ }
+
+p {
+    margin: 5px;
+}
+
+ .rightside {
+    background-color: #d44e25;
+    border: solid 2px black;
+    border-top:none;
+    width: 20%;
+    height: 100%;
+    overflow-y: scroll;
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif ;
+    color : white ;
+ }
+
+ .main {
+     font-size: 22px;
+     font-family: "Open Sans", sans-serif ;
+     height: 100%;
+     width:60%;
+     /* max-width:1300px; */    
+ }
+
+ .footer {
+    background-color:  #ffb428;
+    margin: 0px;
+    height: 140px;
+    width:90%;
+    border: solid 2px black
+ }
+
+ .footertext {
+    font-family: "Open Sans", sans-serif ;
+    font-size: 18px;
+    text-align: center;
+ }
+
+ @media screen and (max-width: 1366px) {
+.leftside { 
+    height:100%;
+    width: 200px; 
+    
+}
+.leftside p {
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.rightside {
+    height: 100%;
+    width: 200px;
+   
+}
+
+.rightside p {
+    font-size: 18px;
+}
+
+.main {
+    width:1000px;
+    height: 100%;
+    
+}
+
+.main p {
+    font-size: 18px;
+}
+
+.footertext p {
+    font-size: 16px;
+}
+ }
+
+ @media screen and (max-width: 480px) {
+
+.osnova {
+    display:flex;
+    flex-direction: column;
+    height:200%;
+}
+
+.main p {
+    width: 350px;
+}
+
+.leftside {
+    width: 100%;
+}
+
+.main {
+     width: 100%; 
+}
+
+.rightside {
+    width: 100%;
+    border-top: solid 2px black;
+}
+
+.footer  {
+    height: 250px;
+}
+
+ }

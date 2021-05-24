@@ -1,0 +1,45 @@
+@media print {
+
+    body {
+        height: 100%;
+    }
+
+     .main , .footer , .header {
+        border: none;
+    }
+
+    .leftside , .rightside {
+        border: solid 2px black;
+        height: 86%;
+    }
+
+    .leftside p {
+        font-size: 15px;
+        color:black;
+    }
+
+    .rightside p {
+        font-size: 15px;
+        color:black;
+    }
+
+    .main p {
+        font-size: 15px;
+    }
+
+    .main {
+        height: 86%;
+    }
+
+    .footer p {
+        font-size: 15px
+    }
+
+    .footer {
+        height: 50%;
+    }
+
+    .osnova {
+        height: 101%;
+    }
+}
