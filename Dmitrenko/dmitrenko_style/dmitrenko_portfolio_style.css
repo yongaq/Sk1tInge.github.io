@@ -1,0 +1,35 @@
+header {
+    height: 100px;
+    margin: 0px;
+    border: solid 2px white;
+    text-align: center;
+}
+
+header p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading {
+    text-align: center;
+    font-size: 45px;
+}
+
+.post-itm {
+margin: 10px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.top{
+    display: flex;
+}
